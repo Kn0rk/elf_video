@@ -1,13 +1,9 @@
-# ELF File Explanation Project
-
-This repository contains three files used to demonstrate the structure and creation of ELF (Executable and Linkable Format) files. These files are part of a video explanation on how ELF files work.
+# Creating ELF executable from scratch
 
 ## Prerequisites
 
-    - Go (Golang): Used to run the Go programs that create ELF files.
-        Installation instructions: https://golang.org/doc/install
-    - NASM (Netwide Assembler): Used to compile the assembly program.
-        Installation on Ubuntu/Debian: sudo apt-get install nasm
+- Go (Golang):  Installation instructions: https://golang.org/doc/install
+- NASM (Netwide Assembler): sudo apt-get install nasm
 
 
 
@@ -58,7 +54,7 @@ This will overwrite `minimal_elf`.
 
 ## Video
 
-
+[Video explanation](https://youtu.be/HyKyn8Zbj24)
 
 ## Note
 
