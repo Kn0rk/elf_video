@@ -25,7 +25,7 @@ ld -o min_asm min.o
 This Go program creates a minimal ELF file. It will only create the parts were absolutely necessary to run a executable:
 - ELF header
 - Program header
-- A simple program that prints "Hello, World!"
+- Instructions/Data
 
 To run:
 ```
@@ -37,7 +37,7 @@ chmod +x minimal_elf
 
 ### valid_elf.go
 
-This is  creates an almost valid elf file by copying the structure from the min.asm nasm output.  Therefore it will work with most utilities like objdump or readelf.
+This is  creates an (almost) valid elf file by copying the structure from the min.asm nasm output.  Therefore it will work with most utilities like objdump or readelf.
 
 To run:
 ```
